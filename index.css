@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100&display=swap");
+* {
+  background: #111;
+  color: #777;
+  font-family: "Anton", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.heroScreen :hover {
+  transition: all 0.2s ease;
+  color: #aaa;
+}
+
+.heroFirstLine {
+  display: flex;
+  font-size: 14em;
+  justify-content: space-between;
+}
+.firstLineStart {
+  display: flex;
+  padding: 0;
+
+  margin: 0;
+  border: 0;
+}
+.firstLineMid {
+  width: 24%;
+  background-color: #aaa;
+  height: 17px;
+  margin-top: 13%;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+.firstLineEnd {
+  display: flex;
+  padding: 0;
+  letter-spacing: -0.08em;
+  margin: 0;
+  border: 0;
+  margin-right: 0.1em;
+}
+.heroSecondLine {
+  display: flex;
+}
+.secondLineStart {
+  font-size: 15em;
+  font-weight: 700;
+  letter-spacing: -0.12em;
+  line-height: 0.8em;
+}
+.secondLineEnd {
+  width: 20%;
+  margin-left: 3em;
+  font-size: 1.3em;
+  color: #aaa !important;
+}
+.heroBorder {
+  border-bottom: #777 2px solid;
+  margin-top: 11em;
+}
+.projectsPageTitle {
+  font-size: 6em;
+  margin-left: 3em
+}
+.sectionBorder {
+  border-bottom: #777 2px solid;
+  margin-top: 2em;
+}
+.projectSection {
+  display: flex;
+  justify-content: space-between;
+  font-size: 5em;
+  margin: 1em;
+  position: relative;
+}
+.projectPage :hover {
+  transition: all 0.7s ease;
+ 
+  color: orangered;
+}
+.projectData img{
+    width: 70%;
+    height: 200px;
+    margin-left: 3em;
+}
+.projectData button{
+    font-size: 1.8rem;
+    border: #aaa 2px solid;
+    border-radius:20%;
+    padding: .4em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: 4em;
+   
+}
+.footer{
+    font-size: 3em;
+    
+}
+.footerTitle{
+    margin-left: 3em;
+} 
+.socialHandles :hover{
+ color:orangered
+  
+}
+.socialHandles{
+    display:flex;
+    gap: 2em;
+    
+}
